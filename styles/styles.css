@@ -23,8 +23,8 @@ body {
     margin-left: auto;
     margin-right: auto;
     font-family: vazirmatn,vazirdigits;
-    background-color: #e0e6e8;
-    color: #253C59;
+    background-color: #f2f2f2;
+    color: #141f40;
     direction: rtl;
 }
 
@@ -35,7 +35,7 @@ a {
 }
 
 nav ul {
-    background-color: #2D4B73;
+    background-color: #2e4e8c;
     font-weight: 600;
     font-size: large;
     list-style-type: none;
@@ -55,7 +55,7 @@ nav ul li a {
     text-decoration: none;  
 }
 nav ul li a:hover {
-    background-color: #074173;
+    background-color: #2d4473;
 }
 
 .hero_section h1 {
@@ -77,20 +77,36 @@ nav ul li a:hover {
     margin-top: 50px;
     margin-bottom: 50px;
     padding: 50px;
-    background-color: #2D4B73;
+    background-color: #2d4473;
     color: white;
     border-radius: 10px;
 }
 
-.banner {
+
+
+.banner1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     margin-top: 50px;
     margin-bottom: 50px;
-    padding: 50px;
-    background-color: #ef972c;
+    background-color: #3f77bf;
     color: white;
     border-radius: 10px;
 }
 
+.banner2 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: #2e4e8c;
+    color: white;
+    border-radius: 10px;
+}
+
+.banner-image{
+    width: 300;
+    height: 300;
+}
 
 .index-card {
     width: 250;
@@ -122,7 +138,7 @@ th, td {
 }
 
 .no-border-table{
-    background-color: rgb(127, 205, 224);
+    background-color: #d6a679;
     border-radius: 10px;
     padding: 10px;
 }
@@ -151,8 +167,8 @@ th, td {
 
 form {
     display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
+    flex-direction:column;
+    justify-content: center;
     max-width: 500px;
     margin: 20px auto;
     padding: 20px;
@@ -160,7 +176,6 @@ form {
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
-
 
 label {
     margin-top: 6px;
@@ -189,7 +204,7 @@ button {
     width: 100%;
     padding: 10px;
     margin: 10px auto;
-    background-color: #aaaaaa;
+    background-color: #1d4273;
     color: white;
     border: none;
     border-radius: 4px;
@@ -200,7 +215,7 @@ button {
     font-size: 14px;
 }
 button:hover {
-    background-color: #0C356A;
+    background-color: #092140;
 }
 
 p, textarea, select, input {
@@ -212,6 +227,11 @@ input::placeholder {
     font-family: vazirmatn;
     color: #2c6fab; 
     font-size: 12px; 
+}
+fieldset{
+    display: flex;
+    flex-direction:column ;
+    justify-content: center;
 }
 
 .thank_you {
